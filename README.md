@@ -28,9 +28,8 @@ Feel free to fork and modify.
  - [Laravel](https://laravel.com)
 
  ## Application Features
-  - Issue Management
-  - Reporting / Analytics
-  - User Management
-  - Applicaiton Management
-  - API Management
-  - 
+  - [ ] Issue Management
+  - [ ] Reporting / Analytics
+  - [ ] User Management
+  - [ ] Applicaiton Management
+  - [ ] API Managements

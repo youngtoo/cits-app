@@ -3,3 +3,15 @@ Complaints, Incident and Complaints Tracking System Web App built using laravel 
 
 ## Work in progress.
 This is a work in progress. Feel free to fork and modify.
+
+## Setup
+
+### Pre-requisites
+
+ - Apache Server
+ - PHP Version 8.3
+ - Mysql (Database) / SQLite
+
+ ### Configuration
+
+ - Copy the `.env` file

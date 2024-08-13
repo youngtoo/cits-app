@@ -9,6 +9,7 @@
         "blade-ui-kit/blade-ui-kit": "^0.6.2",
         "filament/filament": "^3.2",
         "iantoo/laravel-excuses": "dev-main",
+        "iantoo/laravel-greeting-package": "dev-main",
         "iantoo/laravel-unique-number": "dev-main",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9"

@@ -1,11 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ config('app.name', 'Application')}}</title>
-</head>
-<body>
-    <p>Complaints Information and Tracking System</p>composer require laravel/breeze --dev
-</body>
-</html>
+<x-layouts.public>
+    <div class="container mx-auto h-full">
+        <div class="">
+            <p class="text text-2xl text-slate-900 dark:text-white mt-5 mb-5 ">
+                Complaints & Incident Tracking System
+            </p>
+
+            <p class="text-slate-800 dark:text-white">
+                Welcome to out complaint and incident tracking system.
+                Track and report your issues & incidents.
+            </p>
+
+            <p class="text-slate-900 dark:text-white">
+                Record | Analyse | Report
+            </p>
+        </div>
+    </div>
+</x-layouts.public>

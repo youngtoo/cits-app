@@ -6,6 +6,10 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "blade-ui-kit/blade-ui-kit": "^0.6.2",
+        "filament/filament": "^3.2",
+        "iantoo/laravel-excuses": "dev-main",
+        "iantoo/laravel-unique-number": "dev-main",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9"
     },
@@ -33,7 +37,8 @@
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
+            "@php artisan package:discover --ansi",
+            "@php artisan filament:upgrade"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"

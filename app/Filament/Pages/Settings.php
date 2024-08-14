@@ -5,6 +5,7 @@ namespace App\Filament\Pages;
 use Filament\Pages\Page;
 use Filament\Actions\Action;
 use Filament\Support\Enums\ActionSize;
+use Iantoo\GreetingPackage\Greeting;
 
 class Settings extends Page
 {

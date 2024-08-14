@@ -1,3 +1,4 @@
 <x-filament-panels::page>
-@livewire('create-profile')
+<p style="font-size: 1.5rem;">{{ \Iantoo\GreetingPackage\Greeting::currentDate() }}</p>
+<p>{{ \Iantoo\GreetingPackage\Greeting::greet() }}</p>
 </x-filament-panels::page>

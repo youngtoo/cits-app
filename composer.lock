@@ -2090,13 +2090,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/youngtoo/laravel-greeting-package.git",
-                "reference": "4a61bc1ff1b1eadc9c9eda795c9bf5a6251736af"
+                "reference": "cb97169cff0feb93632c45b9b098ceebc308cbb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/youngtoo/laravel-greeting-package/zipball/4a61bc1ff1b1eadc9c9eda795c9bf5a6251736af",
-                "reference": "4a61bc1ff1b1eadc9c9eda795c9bf5a6251736af",
+                "url": "https://api.github.com/repos/youngtoo/laravel-greeting-package/zipball/cb97169cff0feb93632c45b9b098ceebc308cbb7",
+                "reference": "cb97169cff0feb93632c45b9b098ceebc308cbb7",
                 "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^11.20",
+                "illuminate/support": "^11.20"
             },
             "default-branch": true,
             "type": "library",
@@ -2130,9 +2134,9 @@
             ],
             "support": {
                 "issues": "https://github.com/youngtoo/laravel-greeting-package/issues",
-                "source": "https://github.com/youngtoo/laravel-greeting-package/tree/v1.0.0"
+                "source": "https://github.com/youngtoo/laravel-greeting-package/tree/main"
             },
-            "time": "2024-08-13T14:13:07+00:00"
+            "time": "2024-08-14T05:52:16+00:00"
         },
         {
             "name": "iantoo/laravel-unique-number",
